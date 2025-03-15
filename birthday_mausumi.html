@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Mausumi!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            text-align: center;
+            padding: 50px;
+            color: white;
+            overflow: hidden;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            color: #ff3399;
+        }
+        h1 {
+            color: #ff0066;
+        }
+        p {
+            font-size: 20px;
+            color: #333;
+        }
+        .love {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ff0066;
+        }
+        .surprise-btn {
+            background: #ff0066;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .hidden-content {
+            display: none;
+            margin-top: 20px;
+        }
+        .birthday-video {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Happy Birthday, Mausumi! 🎉</h1>
+        <p>आज का दिन बहुत खास है, क्योंकि इस दिन मेरी जिंदगी की सबसे प्यारी लड़की का जन्म हुआ था।</p>
+        <p>तुम्हारी हँसी मेरी दुनिया को रोशन कर देती है, तुम्हारी बातें मेरे दिल को सुकून देती हैं।</p>
+        <p>चाहता हूँ हर जन्म में तुमसे ही मिलूँ, हर जन्म तुम्हारा साथ पाऊँ।</p>
+        <p class="love">तुम मेरी जान हो, Mausumi! ❤️</p>
+        
+        <button class="surprise-btn" onclick="showSurprise()">Click for Surprise 🎁</button>
+        
+        <div class="hidden-content" id="surprise">
+            <h2>🎂 Happy Birthday Once Again! 🎂</h2>
+            <p>खुदा से माँगा है तुम्हें हर दुआ में, तुम्हारे बिना अधूरा हूँ मैं अपनी वफ़ा में।</p>
+            <p>चमकती रहे यूँ ही तेरी दुनिया, हर खुशी तुझ पे हो कुर्बान।</p>
+            <img src="https://source.unsplash.com/150x150/?birthday,cake" alt="Birthday Image 1">
+            <img src="https://source.unsplash.com/150x150/?love,celebration" alt="Birthday Image 2">
+            <img src="https://source.unsplash.com/150x150/?couple,happy" alt="Birthday Image 3">
+            
+            <video class="birthday-video" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script>
+        function showSurprise() {
+            document.getElementById('surprise').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
